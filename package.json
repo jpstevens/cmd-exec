@@ -1,0 +1,38 @@
+{
+  "name": "cmd-exec",
+  "version": "0.0.1",
+  "description": "A tool for executing command-line arguments in Node",
+  "main": "dist/cmd.js",
+  "scripts": {
+    "test": "grunt test",
+    "prepublish": "grunt test && grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpstevens/cmd-exec"
+  },
+  "keywords": [
+    "cmd",
+    "exec",
+    "command",
+    "line"
+  ],
+  "author": "Jack Stevens <jack@applyr.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpstevens/cmd-exec/issues"
+  },
+  "homepage": "https://github.com/jpstevens/cmd-exec",
+  "dependencies": {
+    "q": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-coffeelint": "0.0.10",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-mocha-test": "^0.11.0",
+    "coffee-script": "^1.7.1",
+    "chai": "^1.9.1"
+  }
+}
