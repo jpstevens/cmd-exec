@@ -2,7 +2,7 @@ expect = require("chai").expect
 Cmd = require "../../src/cmd"
 
 describe "cmd", ->
-  
+
   cmd = null
 
   beforeEach -> cmd = Cmd.init()

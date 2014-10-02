@@ -1,5 +1,8 @@
-# cmd-exec 
+# cmd-exec
+
 [![Build Status](https://secure.travis-ci.org/jpstevens/cmd-exec.png?branch=master)](https://travis-ci.org/jpstevens/cmd-exec)
+![Downloads/month](http://img.shields.io/npm/dm/cmd-exec.svg)
+
 
 ## Installation:
 

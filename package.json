@@ -1,6 +1,6 @@
 {
   "name": "cmd-exec",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A tool for executing command-line arguments in Node",
   "main": "dist/cmd.js",
   "scripts": {
